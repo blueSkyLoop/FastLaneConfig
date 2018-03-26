@@ -1,0 +1,16 @@
+ app_identifier "chanyechina.cn.chanyechina" # The bundle identifier of your app
+ apple_id "wanglong@ilegend.cn" # Your Apple email address
+ for_platform :ios do
+   for_lane :IndustryLive_dev do 
+     app_identifier "com.JFNetLive.cn"
+     apple_id "willion@ilegend.cn"
+    end
+
+   for_lane :IndustryLive_appStore do
+     app_identifier "chanyechina.cn.chanyechina"
+     apple_id "wanglong@ilegend.cn"
+   end
+  end
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
